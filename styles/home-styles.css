@@ -8,8 +8,12 @@
  }
 
  body{
-    background-color: #eae5d0(60, 63, 73);
+    background-color: #021b0ad7;
+    display: flex;
+    justify-content: center;
  }
+    
+    
 
  .header{
     max-width: 100%;
@@ -19,8 +23,7 @@
  .menu{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 5%;
-    margin-top: 2%;
+   
  }
 
  .menu a{
@@ -28,4 +31,5 @@
     text-decoration: none;
     font-family: 'Source Code Pro', monospace;
     color: #ffcd4e;
+    font-size: 1.3rem;
  }
